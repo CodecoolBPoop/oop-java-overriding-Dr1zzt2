@@ -10,6 +10,10 @@ public class Order implements Orderable {
         this.status = "new";
     }
 
+    public int getId() {
+        return id;
+    }
+
     public String getStatus() {
         return status;
     }
